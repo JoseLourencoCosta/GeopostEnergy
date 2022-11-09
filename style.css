@@ -1,0 +1,76 @@
+h1 {
+    text-align: center;
+}
+
+/* Corpo da tabela */
+div {
+    font-family: Verdana;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Tabela */
+table {
+    display: inline-block;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgb(143, 142, 142);
+    border-radius: 0rem 1.5rem 1.5rem 1.5rem;
+    margin: 0.8rem 2rem 0.8rem 2rem;
+}
+
+/* texto "equipe" */
+.equipe {
+    overflow: auto;
+    text-overflow:ellipsis;
+    color: rgb(102, 2, 127);
+    font-size: 1rem;
+    text-align: center;
+    padding-left: 2%;
+    font-weight: bold;
+    width: 30%;
+}
+
+/* fundo da linha equipe */
+.fundolinhaequipe{
+    background-color: rgb(227, 226, 226);
+}
+
+/* Lista de países */
+.país {
+    text-align: center;
+    width: 30%;
+}
+
+/* cor fundo das posições 1. e 3. da tabela */
+.corsim {
+    background-color: rgb(179, 178, 178);
+}
+
+/* Conteúdo da tabela */
+td {
+    width: 05%;
+    text-align: center;
+    overflow: auto;
+    text-overflow: clip;
+}
+
+/* Grupos */
+th {
+    height: 1.8rem;
+    text-align: auto;
+    background-color: rgb(137, 0, 155);
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    font-weight: lighter;
+    border-radius: 0rem 1.5rem 0rem 0rem;
+}
+
+/* fundo */
+body {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    padding: auto;
+}
+    
